@@ -1,0 +1,979 @@
+<svg version="1.1"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/" x="0px" y="0px" width="295px" height="295px" viewBox="0 0 295 295" style="enable-background:new 0 0 295 295;" xml:space="preserve">
+    <style type="text/css">
+            .stl0{fill:#231F20;}
+            .stl1{enable - background:new    ;}
+            .stl2{fill:#008943;}
+            .stl3{fill:#FCBA28;}
+            .stl4{fill:#ED2D24;}
+            .stl5{fill:#3D84C5;}
+            .stl6{fill:#173962;}
+            .stl7{fill:#173862;}
+            .stl8{fill:#FFFFFF;}
+            .stl9{fill:none;stroke:#3D84C5;stroke-width:4;stroke-miterlimit:10;}
+            .stl10{fill:none;stroke:#173862;stroke-width:4;stroke-miterlimit:10;}
+            .stl11{fill:#FDBA29;}
+            .stl12{fill:#CCCBCB;}
+            .stl13{fill:none;stroke:#3D84C5;stroke-width:4;stroke-linecap:round;stroke-miterlimit:10;}
+
+               .expand {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            top: 0;
+            z-index: 99999;
+            -webkit-transition: all 250ms ease;
+            -moz-transition: all 250ms ease;
+            -o-transition: all 250ms ease;
+            transition: all 250ms ease;
+            opacity: 1;
+        }
+
+        .expand.hidden {
+            opacity: 0;
+            pointer-events: none;
+        }
+
+        #wave {
+            animation: move-animation 0.5s linear infinite;
+            -webkit-animation: move-animation 0.5s linear infinite;
+        }
+
+        @keyframes move-animation {
+            to {
+                transform: translateX(-56px);
+            }
+        }
+
+        @-webkit-keyframes move-animation {
+            to {
+                transform: translateX(-56px);
+            }
+        }
+
+        #underscore {
+            animation: blink-animation 0.5s steps(5, start) infinite;
+            -webkit-animation: blink-animation 0.5s steps(5, start) infinite;
+        }
+
+        @keyframes blink-animation {
+            to {
+                visibility: hidden;
+            }
+        }
+
+        @-webkit-keyframes blink-animation {
+            to {
+                visibility: hidden;
+            }
+        }
+
+        #tick {
+            animation: rotate-animation 2s infinite;
+            -webkit-animation: rotate-animation 2s infinite;
+            transform-origin: bottom right;
+        }
+
+        @keyframes rotate-animation {
+            0% {
+                transform: rotate(0deg);
+            }
+            30% {
+                transform: rotate(90deg);
+            }
+            60% {
+                transform: rotate(120deg);
+            }
+            100% {
+                transform: rotate(0deg);
+            }
+        }
+
+        @-webkit-keyframes rotate-animation {
+            0% {
+                transform: rotate(0deg);
+            }
+            30% {
+                transform: rotate(90deg);
+            }
+            60% {
+                transform: rotate(120deg);
+            }
+            100% {
+                transform: rotate(0deg);
+            }
+        }
+        /* BOTTOM LIGHTS - 1 */
+
+        #outer1 {
+            animation: fill-outer-animation 2s steps(1) infinite;
+            -webkit-animation: fill-outer-animation 2s steps(1) infinite;
+        }
+
+        @keyframes fill-outer-animation {
+            0% {
+                fill: #FFFFFF;
+            }
+            10% {
+                fill: #173862;
+            }
+            20% {
+                fill: #ED2D24;
+            }
+            30% {
+                fill: #FFFFFF;
+            }
+            40% {
+                fill: #173862;
+            }
+            50% {
+                fill: #ED2D24;
+            }
+            60%,
+            100% {
+                fill: #FFFFFF;
+            }
+        }
+
+        @-webkit-keyframes fill-outer-animation {
+            0% {
+                fill: #FFFFFF;
+            }
+            10% {
+                fill: #173862;
+            }
+            20% {
+                fill: #ED2D24;
+            }
+            30% {
+                fill: #FFFFFF;
+            }
+            40% {
+                fill: #173862;
+            }
+            50% {
+                fill: #ED2D24;
+            }
+            60%,
+            100% {
+                fill: #FFFFFF;
+            }
+        }
+
+        #middle1 {
+            animation: fill-middle-animation 2s steps(1) infinite;
+            -webkit-animation: fill-middle-animation 2s steps(1) infinite;
+        }
+
+        @keyframes fill-middle-animation {
+            0% {
+                fill: #173862;
+            }
+            10% {
+                fill: #ED2D24;
+            }
+            20% {
+                fill: #FFFFFF;
+            }
+            30% {
+                fill: #173862;
+            }
+            40% {
+                fill: #ED2D24;
+            }
+            50% {
+                fill: #FFFFFF;
+            }
+            60%,
+            100% {
+                fill: #173862;
+            }
+        }
+
+        @-webkit-keyframes fill-middle-animation {
+            0% {
+                fill: #173862;
+            }
+            10% {
+                fill: #ED2D24;
+            }
+            20% {
+                fill: #FFFFFF;
+            }
+            30% {
+                fill: #173862;
+            }
+            40% {
+                fill: #ED2D24;
+            }
+            50% {
+                fill: #FFFFFF;
+            }
+            60%,
+            100% {
+                fill: #173862;
+            }
+        }
+
+        #inner1 {
+            animation: fill-inner-animation 2s steps(1) infinite;
+            -webkit-animation: fill-inner-animation 2s steps(1) infinite;
+        }
+
+        @keyframes fill-inner-animation {
+            0% {
+                fill: #ED2D24;
+            }
+            10% {
+                fill: #FFFFFF;
+            }
+            20% {
+                fill: #173862;
+            }
+            30% {
+                fill: #ED2D24;
+            }
+            40% {
+                fill: #FFFFFF;
+            }
+            50% {
+                fill: #173862;
+            }
+            60%,
+            100% {
+                fill: #ED2D24;
+            }
+        }
+
+        @-webkit-keyframes fill-inner-animation {
+            0% {
+                fill: #ED2D24;
+            }
+            10% {
+                fill: #FFFFFF;
+            }
+            20% {
+                fill: #173862;
+            }
+            30% {
+                fill: #ED2D24;
+            }
+            40% {
+                fill: #FFFFFF;
+            }
+            50% {
+                fill: #173862;
+            }
+            60%,
+            100% {
+                fill: #ED2D24;
+            }
+        }
+        /* BOTTOM LIGHTS - 2 */
+
+        #outer2 {
+            animation: fill-outer-animation-two 2s steps(1) infinite;
+            -webkit-animation: fill-outer-animation-two 2s steps(1) infinite;
+            animation-delay: 1s;
+        }
+
+        @keyframes fill-outer-animation-two {
+            0% {
+                fill: #FFFFFF;
+            }
+            10% {
+                fill: #ED2D24;
+            }
+            20% {
+                fill: #173862;
+            }
+            30% {
+                fill: #FFFFFF;
+            }
+            40% {
+                fill: #ED2D24;
+            }
+            50% {
+                fill: #173862;
+            }
+            60%,
+            100% {
+                fill: #FFFFFF;
+            }
+        }
+
+        @-webkit-keyframes fill-outer-animation-two {
+            0% {
+                fill: #FFFFFF;
+            }
+            10% {
+                fill: #ED2D24;
+            }
+            20% {
+                fill: #173862;
+            }
+            30% {
+                fill: #FFFFFF;
+            }
+            40% {
+                fill: #ED2D24;
+            }
+            50% {
+                fill: #173862;
+            }
+            60%,
+            100% {
+                fill: #FFFFFF;
+            }
+        }
+
+        #middle2 {
+            animation: fill-middle-animation-two 2s steps(1) infinite;
+            -webkit-animation: fill-middle-animation-two 2s steps(1) infinite;
+            animation-delay: 1s;
+        }
+
+        @keyframes fill-middle-animation-two {
+            0% {
+                fill: #173862;
+            }
+            10% {
+                fill: #FFFFFF;
+            }
+            20% {
+                fill: #ED2D24;
+            }
+            30% {
+                fill: #173862;
+            }
+            40% {
+                fill: #FFFFFF;
+            }
+            50% {
+                fill: #ED2D24;
+            }
+            60%,
+            100% {
+                fill: #173862;
+            }
+        }
+
+        @-webkit-keyframes fill-middle-animation-two {
+            0% {
+                fill: #173862;
+            }
+            10% {
+                fill: #FFFFFF;
+            }
+            20% {
+                fill: #ED2D24;
+            }
+            30% {
+                fill: #173862;
+            }
+            40% {
+                fill: #FFFFFF;
+            }
+            50% {
+                fill: #ED2D24;
+            }
+            60%,
+            100% {
+                fill: #173862;
+            }
+        }
+
+        #inner2 {
+            animation: fill-inner-animation-two 2s steps(1) infinite;
+            -webkit-animation: fill-inner-animation-two 2s steps(1) infinite;
+            animation-delay: 1s;
+        }
+
+        @keyframes fill-inner-animation-two {
+            0% {
+                fill: #ED2D24;
+            }
+            10% {
+                fill: #173862;
+            }
+            20% {
+                fill: #FFFFFF;
+            }
+            30% {
+                fill: #ED2D24;
+            }
+            40% {
+                fill: #173862;
+            }
+            50% {
+                fill: #FFFFFF;
+            }
+            60%,
+            100% {
+                fill: #ED2D24;
+            }
+        }
+
+        @-webkit-keyframes fill-inner-animation-two {
+            0% {
+                fill: #ED2D24;
+            }
+            10% {
+                fill: #173862;
+            }
+            20% {
+                fill: #FFFFFF;
+            }
+            30% {
+                fill: #ED2D24;
+            }
+            40% {
+                fill: #173862;
+            }
+            50% {
+                fill: #FFFFFF;
+            }
+            60%,
+            100% {
+                fill: #ED2D24;
+            }
+        }
+        /* BOTTOM LIGHTS - 3 */
+
+        #outer3 {
+            animation: fill-outer-animation-three 2s steps(1) infinite;
+            -webkit-animation: fill-outer-animation-three 2s steps(1) infinite;
+            animation-delay: 0.5s;
+        }
+
+        @keyframes fill-outer-animation-three {
+            0% {
+                fill: #FFFFFF;
+            }
+            10% {
+                fill: #FDBA29;
+            }
+            20% {
+                fill: #ED2D24;
+            }
+            30% {
+                fill: #FFFFFF;
+            }
+            40% {
+                fill: #FDBA29;
+            }
+            50% {
+                fill: #ED2D24;
+            }
+            60%,
+            100% {
+                fill: #FFFFFF;
+            }
+        }
+
+        @-webkit-keyframes fill-outer-animation-three {
+            0% {
+                fill: #FFFFFF;
+            }
+            10% {
+                fill: #FDBA29;
+            }
+            20% {
+                fill: #ED2D24;
+            }
+            30% {
+                fill: #FFFFFF;
+            }
+            40% {
+                fill: #FDBA29;
+            }
+            50% {
+                fill: #ED2D24;
+            }
+            60%,
+            100% {
+                fill: #FFFFFF;
+            }
+        }
+
+        #middle3 {
+            animation: fill-middle-animation-three 2s steps(1) infinite;
+            -webkit-animation: fill-middle-animation-three 2s steps(1) infinite;
+            animation-delay: 0.5s;
+        }
+
+        @keyframes fill-middle-animation-three {
+            0% {
+                fill: #ED2D24;
+            }
+            10% {
+                fill: #FFFFFF;
+            }
+            20% {
+                fill: #FDBA29;
+            }
+            30% {
+                fill: #ED2D24;
+            }
+            40% {
+                fill: #FFFFFF;
+            }
+            50% {
+                fill: #FDBA29;
+            }
+            60%,
+            100% {
+                fill: #ED2D24;
+            }
+        }
+
+        @-webkit-keyframes fill-middle-animation-three {
+            0% {
+                fill: #ED2D24;
+            }
+            10% {
+                fill: #FFFFFF;
+            }
+            20% {
+                fill: #FDBA29;
+            }
+            30% {
+                fill: #ED2D24;
+            }
+            40% {
+                fill: #FFFFFF;
+            }
+            50% {
+                fill: #FDBA29;
+            }
+            60%,
+            100% {
+                fill: #ED2D24;
+            }
+        }
+
+        #inner3 {
+            animation: fill-inner-animation-three 2s steps(1) infinite;
+            -webkit-animation: fill-inner-animation-three 2s steps(1) infinite;
+            animation-delay: 0.5s;
+        }
+
+        @keyframes fill-inner-animation-three {
+            0% {
+                fill: #FDBA29;
+            }
+            10% {
+                fill: #ED2D24;
+            }
+            20% {
+                fill: #FFFFFF;
+            }
+            30% {
+                fill: #FDBA29;
+            }
+            40% {
+                fill: #ED2D24;
+            }
+            50% {
+                fill: #FFFFFF;
+            }
+            60%,
+            100% {
+                fill: #FDBA29;
+            }
+        }
+
+        @-webkit-keyframes fill-inner-animation-three {
+            0% {
+                fill: #FDBA29;
+            }
+            10% {
+                fill: #ED2D24;
+            }
+            20% {
+                fill: #FFFFFF;
+            }
+            30% {
+                fill: #FDBA29;
+            }
+            40% {
+                fill: #ED2D24;
+            }
+            50% {
+                fill: #FFFFFF;
+            }
+            60%,
+            100% {
+                fill: #FDBA29;
+            }
+        }
+
+        .container {
+            display: -webkit-box;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-flex-flow: row wrap;
+            flex-flow: row wrap;
+            height: 100%;
+        }
+
+        .flex-15 {
+            webkit-flex: 1 1 15%;
+            -ms-flex: 1 1 15%;
+            flex: 1 1 15%;
+            max-width: 15%;
+            max-height: 100%;
+            box-sizing: border-box;
+        }
+
+        .flex-40 {
+            webkit-flex: 1 1 40%;
+            -ms-flex: 1 1 40%;
+            flex: 1 1 40%;
+            max-width: 40%;
+            max-height: 100%;
+            box-sizing: border-box;
+        }
+
+        .flex-55 {
+            webkit-flex: 1 1 55%;
+            -ms-flex: 1 1 55%;
+            flex: 1 1 55%;
+            max-width: 55%;
+            max-height: 100%;
+            box-sizing: border-box;
+        }
+
+        .flex-70 {
+            webkit-flex: 1 1 70%;
+            -ms-flex: 1 1 70%;
+            flex: 1 1 70%;
+            max-width: 70%;
+            max-height: 100%;
+            box-sizing: border-box;
+        }
+
+        .mobile-loading {
+            width: 100%;
+            height: 100%;
+            max-width: 100%;
+            background-color: #CDCCCC;
+            display: none;
+        }
+
+        .small-mobile {
+            display: none;
+        }
+
+        .height-60 {
+            height: 60%;
+        }
+
+        .height-20 {
+            height: 20%;
+        }
+
+        .grey-panel {
+            position: relative;
+            background-color: #CDCCCC;
+            display: -webkit-box;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .red-panel {
+            position: relative;
+            background: #ee2f24;
+        }
+
+        .blue-panel {
+            position: relative;
+            background: #3d85c6;
+        }
+
+        .navy-panel {
+            position: relative;
+            background: #173963;
+        }
+
+        .yellow-panel {
+            position: relative;
+            background: #FEBC2A;
+        }
+
+        .screw {
+            position: absolute;
+            width: 12px;
+            height: 12px;
+            background: url('./img/grey-screw.svg') no-repeat center center;
+        }
+
+        .white-screw {
+            background: url('./img/white-screw.svg') no-repeat center center;
+        }
+
+        .screw:nth-child(1) {
+            top: 10px;
+            left: 10px;
+        }
+
+        .screw:nth-child(2) {
+            top: 10px;
+            right: 10px;
+        }
+
+        .screw:nth-child(3) {
+            bottom: 10px;
+            left: 10px;
+        }
+
+        .screw:nth-child(4) {
+            bottom: 10px;
+            right: 10px;
+        }
+
+        @media (max-width: 959px) and (min-width: 600px) {
+            .hide-sm {
+                display: none;
+            }
+            .flex-sm-70 {
+                -webkit-flex: 1 1 70% !important;
+                -ms-flex: 1 1 70% !important;
+                flex: 1 1 70% !important;
+                max-width: 70% !important;
+                max-height: 100%;
+                box-sizing: border-box;
+            }
+        }
+
+        @media all and (max-width:1100px) {
+            .hide-panel {
+                display: none;
+            }
+        }
+
+        @media (max-width:599px) {
+            .desktop-loading {
+                display: none !important;
+            }
+            .mobile-loading {
+                display: -webkit-box;
+                display: -moz-box;
+                display: -ms-flexbox;
+                display: -webkit-flex;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+
+        @media all and (max-width:325px) {
+            .large-mobile {
+                display: none;
+            }
+            .small-mobile {
+                display: block;
+            }
+        }
+    </style>
+    <defs>
+    </defs>
+    <g>
+        <g>
+            <path class="stl0" d="M289,295H6c-3.3,0-6-2.7-6-6V151c0-3.3,2.7-6,6-6h283c3.3,0,6,2.7,6,6v138C295,292.3,292.3,295,289,295z"/>
+            <g class="stl1">
+                <path class="stl2" d="M25.6,199.7v9.1h-2.8v-22.1h5.4c5.2,0,7.9,2.1,7.9,6.3c0,2.9-1.5,4.9-4.4,5.9l6,9.9h-3.3l-5.3-9.1H25.6z                    M25.6,197.3h2.5c1.7,0,3-0.3,3.8-1s1.2-1.7,1.2-3.2c0-1.4-0.4-2.4-1.2-3.1c-0.8-0.6-2.1-0.9-3.9-0.9h-2.4V197.3z"/>
+                <path class="stl2" d="M52.2,208.9l-0.6-2.3h-0.1c-0.8,1-1.6,1.7-2.4,2c-0.8,0.4-1.9,0.6-3.2,0.6c-1.6,0-2.9-0.4-3.9-1.3                   c-0.9-0.9-1.4-2.1-1.4-3.6c0-3.4,2.6-5.1,7.7-5.3l3.1-0.1v-1c0-2.4-1.2-3.6-3.7-3.6c-1.5,0-3.1,0.4-5,1.2l-1-2.1                   c2-1,3.9-1.5,5.8-1.5c2.3,0,3.9,0.4,5,1.3c1,0.9,1.5,2.3,1.5,4.2v11.4H52.2z M51.4,200.7l-2.5,0.1c-2,0.1-3.4,0.4-4.2,0.9                   c-0.8,0.5-1.2,1.4-1.2,2.5c0,1.8,1,2.7,3,2.7c1.5,0,2.7-0.4,3.5-1.2c0.9-0.8,1.3-2,1.3-3.5V200.7z"/>
+                <path class="stl2" d="M70.6,208.9v-10.7c0-2.6-1.2-3.9-3.6-3.9c-3.1,0-4.6,2-4.6,6v8.6h-2.8v-16.6h2.2l0.4,2.2h0.2                   c1-1.7,2.7-2.5,5.1-2.5c3.9,0,5.9,2,5.9,6.1v10.9H70.6z"/>
+                <path class="stl2" d="M89.4,206.6h-0.1c-1.1,1.7-2.8,2.5-4.9,2.5c-2,0-3.6-0.8-4.8-2.3c-1.2-1.5-1.7-3.6-1.7-6.3                   c0-2.7,0.6-4.8,1.7-6.4c1.2-1.5,2.7-2.3,4.8-2.3c2.1,0,3.7,0.8,4.9,2.4h0.2c-0.1-1.3-0.2-2.1-0.2-2.5v-6.6H92v23.6h-2.2                   L89.4,206.6z M89.3,201.2v-0.6c0-2.3-0.4-3.9-1.1-4.9c-0.7-1-1.8-1.5-3.4-1.5c-2.7,0-4.1,2.1-4.1,6.4c0,4.2,1.4,6.3,4.1,6.3                   c1.5,0,2.6-0.4,3.3-1.3C88.9,204.6,89.2,203.2,89.3,201.2z"/>
+                <path class="stl2" d="M103.6,209.2c-2.2,0-4-0.8-5.4-2.4c-1.4-1.6-2.1-3.7-2.1-6.3c0-2.7,0.7-4.7,2.1-6.3c1.4-1.5,3.2-2.3,5.5-2.3                   c2.2,0,4,0.8,5.4,2.3c1.4,1.6,2.1,3.6,2.1,6.2c0,2.7-0.7,4.8-2.1,6.3C107.8,208.4,105.9,209.2,103.6,209.2z M103.7,206.9                   c3.1,0,4.7-2.1,4.7-6.4c0-4.2-1.6-6.3-4.7-6.3c-3.1,0-4.7,2.1-4.7,6.3C99,204.8,100.6,206.9,103.7,206.9z"/>
+                <path class="stl2" d="M127.8,208.9v-10.7c0-1.5-0.1-2.5-0.4-3.1c-0.3-0.6-0.7-0.9-1.3-0.9c-0.9,0-1.5,0.4-1.9,1.3                   c-0.4,0.8-0.6,2.2-0.6,4.2v9.2h-2.4v-10.7c0-2.6-0.6-3.9-1.9-3.9c-0.8,0-1.5,0.4-1.8,1.2c-0.4,0.8-0.5,2.4-0.5,4.8v8.6h-2.5                   v-16.6h1.9l0.4,2.2h0.2c0.7-1.7,1.7-2.5,3-2.5c1.6,0,2.7,0.9,3.2,2.8h0.1c0.8-1.8,1.9-2.8,3.3-2.8c1.3,0,2.2,0.5,2.8,1.4                   c0.6,0.9,0.9,2.5,0.9,4.7v10.9H127.8z"/>
+            </g>
+            <g class="stl1">
+                <path class="stl2" d="M30.7,241.9h-2.8v-19.6h-6.3v-2.5H37v2.5h-6.3V241.9z"/>
+                <path class="stl2" d="M54.6,225.6l-0.7,2.5c-1.2-0.5-2.4-0.7-3.4-0.7c-1.6,0-2.9,0.5-3.8,1.4c-0.9,0.9-1.3,2.3-1.3,4v9h-2.8v-16.6                   h2.2l0.3,3h0.1c0.8-1.2,1.6-2.1,2.5-2.6c0.9-0.5,2-0.8,3.2-0.8C52.2,224.9,53.4,225.2,54.6,225.6z"/>
+                <path class="stl2" d="M65.4,227.4l-4.1-0.3v-1.9h6.8v14.5l5.3,0.3v1.9H60.2V240l5.2-0.3V227.4z M66.8,218.4c1.1,0,1.6,0.6,1.6,1.7                   c0,0.6-0.2,1-0.5,1.3c-0.3,0.3-0.7,0.4-1.1,0.4c-1.1,0-1.6-0.6-1.6-1.7C65.2,219,65.7,218.4,66.8,218.4z"/>
+                <path class="stl2" d="M83.3,241.9l-6.3-16.6h2.8l3.6,9.9c0.9,2.3,1.4,4,1.5,4.9h0.1c0.1-0.4,0.6-2.1,1.5-4.9l3.6-9.9h2.9                   l-6.3,16.6H83.3z"/>
+                <path class="stl2" d="M102.6,227.4l-4.1-0.3v-1.9h6.8v14.5l5.3,0.3v1.9H97.4V240l5.2-0.3V227.4z M104,218.4c1.1,0,1.6,0.6,1.6,1.7                   c0,0.6-0.2,1-0.5,1.3c-0.3,0.3-0.7,0.4-1.1,0.4c-1.1,0-1.6-0.6-1.6-1.7C102.4,219,102.9,218.4,104,218.4z"/>
+                <path class="stl2" d="M126.6,241.9l-0.6-2.3h-0.1c-0.8,1-1.6,1.7-2.4,2c-0.8,0.4-1.9,0.6-3.2,0.6c-1.6,0-2.9-0.4-3.9-1.3                   c-0.9-0.9-1.4-2.1-1.4-3.6c0-3.4,2.6-5.1,7.7-5.3l3.1-0.1v-1c0-2.4-1.2-3.6-3.7-3.6c-1.5,0-3.1,0.4-5,1.2l-1-2.1                   c2-1,3.9-1.5,5.8-1.5c2.3,0,3.9,0.4,5,1.3c1,0.9,1.5,2.3,1.5,4.2v11.4H126.6z M125.8,233.7l-2.5,0.1c-2,0.1-3.4,0.4-4.2,0.9                   c-0.8,0.5-1.2,1.4-1.2,2.5c0,1.8,1,2.7,3,2.7c1.5,0,2.7-0.4,3.5-1.2c0.9-0.8,1.3-2,1.3-3.5V233.7z"/>
+            </g>
+            <g class="stl1">
+                <path class="stl2" d="M30.2,263.2h6.4V274c-2,0.8-4.1,1.1-6.4,1.1c-2.6,0-4.7-1-6.2-3c-1.5-2-2.2-4.8-2.2-8.4                   c0-3.5,0.8-6.3,2.5-8.3c1.6-2,3.9-3,6.8-3c1.9,0,3.7,0.4,5.2,1.3l-1.1,2.5c-1.5-0.8-2.9-1.3-4.2-1.3c-1.9,0-3.4,0.8-4.5,2.4                   c-1.1,1.6-1.6,3.8-1.6,6.5c0,5.9,2,8.9,6,8.9c1,0,2-0.1,3.1-0.4v-6.6h-3.6V263.2z"/>
+                <path class="stl2" d="M55.2,267.1H43.5c0.1,3.8,1.8,5.7,5.2,5.7c2,0,3.8-0.4,5.6-1.2v2.4c-1.7,0.8-3.5,1.1-5.5,1.1                   c-2.5,0-4.5-0.8-5.9-2.3s-2.2-3.6-2.2-6.2c0-2.7,0.7-4.8,2.1-6.4c1.4-1.6,3.2-2.4,5.5-2.4c2.1,0,3.8,0.7,5.1,2                   c1.3,1.4,1.9,3.2,1.9,5.4V267.1z M43.5,264.8h8.7c0-3.1-1.4-4.6-4.1-4.6C45.3,260.2,43.8,261.8,43.5,264.8z"/>
+                <path class="stl2" d="M70.6,274.9v-10.7c0-2.6-1.2-3.9-3.6-3.9c-3.1,0-4.6,2-4.6,6v8.6h-2.8v-16.6h2.2l0.4,2.2h0.2                   c1-1.7,2.7-2.5,5.1-2.5c3.9,0,5.9,2,5.9,6.1v10.9H70.6z"/>
+                <path class="stl2" d="M92.4,267.1H80.7c0.1,3.8,1.8,5.7,5.2,5.7c2,0,3.8-0.4,5.6-1.2v2.4c-1.7,0.8-3.5,1.1-5.5,1.1                   c-2.5,0-4.5-0.8-5.9-2.3s-2.2-3.6-2.2-6.2c0-2.7,0.7-4.8,2.1-6.4c1.4-1.6,3.2-2.4,5.5-2.4c2.1,0,3.8,0.7,5.1,2                   c1.3,1.4,1.9,3.2,1.9,5.4V267.1z M80.7,264.8h8.7c0-3.1-1.4-4.6-4.1-4.6C82.5,260.2,81,261.8,80.7,264.8z"/>
+                <path class="stl2" d="M110.4,258.6l-0.7,2.5c-1.2-0.5-2.4-0.7-3.4-0.7c-1.6,0-2.9,0.5-3.8,1.4c-0.9,0.9-1.3,2.3-1.3,4v9h-2.8                   v-16.6h2.2l0.3,3h0.1c0.8-1.2,1.6-2.1,2.5-2.6c0.9-0.5,2-0.8,3.2-0.8C108,257.9,109.2,258.2,110.4,258.6z"/>
+                <path class="stl2" d="M126.6,274.9l-0.6-2.3h-0.1c-0.8,1-1.6,1.7-2.4,2c-0.8,0.4-1.9,0.6-3.2,0.6c-1.6,0-2.9-0.4-3.9-1.3                   c-0.9-0.9-1.4-2.1-1.4-3.6c0-3.4,2.6-5.1,7.7-5.3l3.1-0.1v-1c0-2.4-1.2-3.6-3.7-3.6c-1.5,0-3.1,0.4-5,1.2l-1-2.1                   c2-1,3.9-1.5,5.8-1.5c2.3,0,3.9,0.4,5,1.3c1,0.9,1.5,2.3,1.5,4.2v11.4H126.6z M125.8,266.7l-2.5,0.1c-2,0.1-3.4,0.4-4.2,0.9                   c-0.8,0.5-1.2,1.4-1.2,2.5c0,1.8,1,2.7,3,2.7c1.5,0,2.7-0.4,3.5-1.2c0.9-0.8,1.3-2,1.3-3.5V266.7z"/>
+                <path class="stl2" d="M147.1,272.6v2.1c-1.3,0.3-2.6,0.5-3.8,0.5c-3.7,0-5.5-1.7-5.5-5.2v-9.6h-4v-1.4l4-0.7l1.2-4.3h1.6v4.4h6.6                   v2.1h-6.6v9.6c0,2,1,3,2.9,3C144.4,272.9,145.6,272.8,147.1,272.6z"/>
+                <path class="stl2" d="M159.5,275.2c-2.2,0-4-0.8-5.4-2.4c-1.4-1.6-2.1-3.7-2.1-6.3c0-2.7,0.7-4.7,2.1-6.3c1.4-1.5,3.2-2.3,5.5-2.3                   c2.2,0,4,0.8,5.4,2.3c1.4,1.6,2.1,3.6,2.1,6.2c0,2.7-0.7,4.8-2.1,6.3C163.6,274.4,161.8,275.2,159.5,275.2z M159.5,272.9                   c3.1,0,4.7-2.1,4.7-6.4c0-4.2-1.6-6.3-4.7-6.3c-3.1,0-4.7,2.1-4.7,6.3C154.8,270.8,156.4,272.9,159.5,272.9z"/>
+                <path class="stl2" d="M184.9,258.6l-0.7,2.5c-1.2-0.5-2.4-0.7-3.4-0.7c-1.6,0-2.9,0.5-3.8,1.4c-0.9,0.9-1.3,2.3-1.3,4v9h-2.8                   v-16.6h2.2l0.3,3h0.1c0.8-1.2,1.6-2.1,2.5-2.6c0.9-0.5,2-0.8,3.2-0.8C182.4,257.9,183.6,258.2,184.9,258.6z"/>
+            </g>
+            <g>
+                <rect x="264" y="165" class="stl2" width="11" height="7"/>
+                <rect x="264" y="178" class="stl2" width="11" height="4"/>
+            </g>
+        </g>
+        <g>
+            <g>
+                <g>
+                    <rect x="147" y="115" class="stl3" width="146" height="8"/>
+                    <path class="stl4" d="M291,117v4H149v-4H291 M295,113H145v12h150V113L295,113z"/>
+                </g>
+                <g>
+                    <circle class="stl5" cx="184" cy="119" r="7"/>
+                    <path class="stl6" d="M184,114c2.8,0,5,2.2,5,5s-2.2,5-5,5s-5-2.2-5-5S181.2,114,184,114 M184,110c-5,0-9,4-9,9s4,9,9,9s9-4,9-9                     S189,110,184,110L184,110z"/>
+                </g>
+            </g>
+            <g>
+                <g>
+                    <rect x="147" y="91" class="stl3" width="146" height="8"/>
+                    <path class="stl4" d="M291,93v4H149v-4H291 M295,89H145v12h150V89L295,89z"/>
+                </g>
+                <g>
+                    <circle class="stl5" cx="266" cy="95" r="7"/>
+                    <path class="stl6" d="M266,90c2.8,0,5,2.2,5,5s-2.2,5-5,5s-5-2.2-5-5S263.2,90,266,90 M266,86c-5,0-9,4-9,9s4,9,9,9s9-4,9-9                     S271,86,266,86L266,86z"/>
+                </g>
+            </g>
+            <g>
+                <g>
+                    <rect x="147" y="67" class="stl3" width="146" height="8"/>
+                    <path class="stl4" d="M291,69v4H149v-4H291 M295,65H145v12h150V65L295,65z"/>
+                </g>
+                <g>
+                    <circle class="stl5" cx="206" cy="71" r="7"/>
+                    <path class="stl6" d="M206,66c2.8,0,5,2.2,5,5s-2.2,5-5,5s-5-2.2-5-5S203.2,66,206,66 M206,62c-5,0-9,4-9,9s4,9,9,9s9-4,9-9                     S211,62,206,62L206,62z"/>
+                </g>
+            </g>
+        </g>
+        <g>
+            <rect class="stl7" width="125" height="25"/>
+            <g>
+                <rect x="12" y="10.5" class="stl8" width="101" height="113"/>
+                <path class="stl7" d="M111,12.5v109H14v-109H111 M115,8.5H10v117h105V8.5L115,8.5z"/>
+            </g>
+            <g>
+                <line class="stl9" x1="25" y1="22" x2="100" y2="22"/>
+                <line class="stl9" x1="25" y1="32" x2="100" y2="32"/>
+                <line class="stl9" x1="25" y1="42" x2="80" y2="42"/>
+                <line class="stl9" x1="25" y1="52" x2="95" y2="52"/>
+                <line class="stl9" x1="25" y1="62" x2="90" y2="62"/>
+                <line class="stl9" x1="25" y1="72" x2="70" y2="72"/>
+                <line class="stl9" x1="25" y1="82" x2="95" y2="82"/>
+                <line class="stl9" x1="25" y1="92" x2="80" y2="92"/>
+                <line class="stl9" x1="25" y1="102" x2="60" y2="102"/>
+            </g>
+        </g>
+        <g>
+            <g>
+                <g>
+                    <circle class="stl5" cx="149.1" cy="4" r="4"/>
+                    <circle class="stl7" cx="159.6" cy="4" r="2.5"/>
+                </g>
+            </g>
+        </g>
+        <g>
+            <g>
+                <circle class="stl4" cx="149.1" cy="17.7" r="4"/>
+                <circle class="stl8" cx="159.6" cy="17.7" r="2.5"/>
+            </g>
+        </g>
+        <g>
+            <g>
+                <circle class="stl5" cx="149.1" cy="31.3" r="4"/>
+                <circle class="stl7" cx="159.6" cy="31.3" r="2.5"/>
+            </g>
+        </g>
+        <g>
+            <g>
+                <circle class="stl4" cx="149.1" cy="45" r="4"/>
+                <circle class="stl8" cx="159.6" cy="45" r="2.5"/>
+            </g>
+        </g>
+        <g>
+            <g>
+                <g>
+                    <circle class="stl5" cx="174.1" cy="4" r="4"/>
+                    <circle class="stl7" cx="184.6" cy="4" r="2.5"/>
+                </g>
+            </g>
+        </g>
+        <g>
+            <g>
+                <circle class="stl4" cx="174.1" cy="17.7" r="4"/>
+                <circle class="stl8" cx="184.6" cy="17.7" r="2.5"/>
+            </g>
+        </g>
+        <g>
+            <g>
+                <circle class="stl5" cx="174.1" cy="31.3" r="4"/>
+                <circle class="stl7" cx="184.6" cy="31.3" r="2.5"/>
+            </g>
+        </g>
+        <g>
+            <g>
+                <circle class="stl4" cx="174.1" cy="45" r="4"/>
+                <circle class="stl8" cx="184.6" cy="45" r="2.5"/>
+            </g>
+        </g>
+        <g>
+            <g>
+                <g>
+                    <circle class="stl5" cx="199.1" cy="4" r="4"/>
+                    <circle class="stl7" cx="209.6" cy="4" r="2.5"/>
+                </g>
+            </g>
+        </g>
+        <g>
+            <g>
+                <circle class="stl4" cx="199.1" cy="17.7" r="4"/>
+                <circle class="stl8" cx="209.6" cy="17.7" r="2.5"/>
+            </g>
+        </g>
+        <g>
+            <g>
+                <circle class="stl5" cx="199.1" cy="31.3" r="4"/>
+                <circle class="stl7" cx="209.6" cy="31.3" r="2.5"/>
+            </g>
+        </g>
+        <g>
+            <g>
+                <circle class="stl4" cx="199.1" cy="45" r="4"/>
+                <circle class="stl8" cx="209.6" cy="45" r="2.5"/>
+            </g>
+        </g>
+        <g>
+            <line class="stl10" x1="295" y1="45" x2="286.6" y2="45"/>
+            <line class="stl10" x1="235.4" y1="45" x2="227" y2="45"/>
+            <g>
+                <g>
+                    <g>
+                        <path class="stl4" d="M276,6c-4.4-2.6-9.5-4-15-4v30L276,6z"/>
+                        <path class="stl11" d="M261,2c-5.5,0-10.6,1.5-15,4l15,26V2z"/>
+                        <path class="stl7" d="M287,17c-2.6-4.6-6.4-8.3-11-11l-15,26L287,17z"/>
+                        <path class="stl8" d="M261,32h30c0-5.5-1.5-10.6-4-15L261,32z"/>
+                        <path class="stl12" d="M246,6c-4.6,2.6-8.3,6.4-11,11l26,15L246,6z"/>
+                        <path class="stl8" d="M235,17c-2.6,4.4-4,9.5-4,15h30L235,17z"/>
+                    </g>
+                </g>
+                <g>
+                    <path class="stl5" d="M261,4c15.2,0,27.8,11.3,29.7,26h-59.5C233.2,15.3,245.8,4,261,4 M261,0c-18.8,0-34,15.2-34,34                     c9.8,0,52.6,0,68,0C295,15.2,279.8,0,261,0L261,0z"/>
+                </g>
+            </g>
+        </g>
+    </g>
+    <path id="underscore" class="stl2" d="M206.2,279.8h-19.1v-2.1h19.1V279.8z"/>
+    <line id="tick" class="stl13" x1="261" y1="32" x2="242.3" y2="26.4"/>
+    <div xmlns="" id="divScriptsUsed" style="display: none"/>
+    <script xmlns="" id="globalVarsDetection" src="moz-extension://6dd8b046-77de-40ba-9d02-3f539b8d83a1/js/wrs_env.js"/>
+</svg>

@@ -1,0 +1,204 @@
+{
+    "list": [
+        {
+            "title": "Codenames",
+            "description": "Give your team clever one-word clues to help them spot their agents in the field.",
+            "url": "https://codenames.game/",
+            "image": "/images/codenames.ico",
+            "players_min": 4,
+            "players_max": -1
+        },
+        {
+            "title": "GeoGuessr",
+            "description": "Find clues and guess where you are in the world.",
+            "url": "https://www.geoguessr.com/",
+            "image": "/images/geoguessr.png",
+            "players_min": 1,
+            "players_max": -1
+        },
+        {
+            "title": "Cards Against Formality",
+            "description": "A terrible card game. For terrible people...",
+            "url": "https://cardsagainstformality.io/",
+            "image": "/images/cardsagainstformality.ico",
+            "players_min": 2,
+            "players_max": 100
+        },
+        {
+            "title": "Secret Hitler",
+            "description": "In pre-WW2 Germany, Liberals and Fascists square off in an intrigue-filled parliament.",
+            "url": "https://secrethitler.io/",
+            "image": "/images/secrethitler.png",
+            "players_min": 5,
+            "players_max": 10
+        },
+        {
+            "title": "Bad Cards",
+            "description": "good games for your bad side.",
+            "url": "https://bad.cards",
+            "image": "/images/badcards.svg",
+            "players_min": 2,
+            "players_max": 50
+        },
+        {
+            "title": "PlayingCards.io",
+            "description": "PlayingCards.io provides online rooms to play games, learn, and hang out",
+            "url": "https://playingcards.io/",
+            "image": "/images/playingcards.io.png",
+            "players_min": 2,
+            "players_max": -1
+        },
+        {
+            "title": "Gartic Phone",
+            "description": "The Telephone Game",
+            "url": "https://garticphone.com/",
+            "image": "/images/garticphone.ico",
+            "players_min": 4,
+            "players_max": 50
+        },
+        {
+            "title": "Gartic TV",
+            "description": "The Party Drawing Game",
+            "url": "https://gartic.tv/",
+            "image": "/images/gartictv.ico",
+            "players_min": 2,
+            "players_max": 8
+        },
+        {
+            "title": "Attorney Online",
+            "description": "A roleplaying chatroom based primarily in the Ace Attorney universe.",
+            "url": "https://aceattorneyonline.com/",
+            "image": "/images/aceattorneyonline.ico",
+            "players_min": 2,
+            "players_max": -1
+        },
+        {
+            "title": "Random Trivia Generator",
+            "description": "RTG helps you fill your brain with useless information",
+            "url": "https://www.randomtriviagenerator.com/",
+            "image": "/images/randomtriviagenerator.svg",
+            "players_min": 2,
+            "players_max": -1
+        },
+        {
+            "title": "The Vote's Out!",
+            "description": "The free phone party game with friends",
+            "url": "https://votesout.com/",
+            "image": "/images/votesout.png",
+            "players_min": 3,
+            "players_max": 12
+        },
+        {
+            "title": "Squabble",
+            "description": "Keep guessing words until you're the last one standing.",
+            "url": "https://squabble.me/",
+            "image": "/images/squabble.ico",
+            "players_min": 3,
+            "players_max": 12
+        },
+        {
+            "title": "Decryptr",
+            "description": "Your mission: transmit secret codes to your teammates without letting the opposing team intercept.",
+            "url": "https://www.decryptr.io/",
+            "image": "/images/decryptr.ico",
+            "players_min": 2,
+            "players_max": -1
+        },
+        {
+            "title": "skribbl",
+            "description": "A free online multiplayer drawing and guessing pictionary game.",
+            "url": "https://skribbl.io/",
+            "image": "/images/skribbl.png",
+            "players_min": 2,
+            "players_max": 20
+        },
+        {
+            "title": "Spyfall",
+            "description": "You must question each other to discover the spy.",
+            "url": "https://www.spyfall.app/",
+            "image": "/images/spyfall.png",
+            "players_min": 4,
+            "players_max": 12
+        },
+        {
+            "title": "One Night Ultimate Werewolf",
+            "description": "Find the Werewolves hiding amongst you, but you only have one night.",
+            "url": "https://netgames.io/games/onu-werewolf/",
+            "image": "/images/netgames.png",
+            "players_min": 3,
+            "players_max": 29
+        },
+        {
+            "title": "Secret Sith",
+            "description": "The Loyalists and Separatists fight for political power in the Galactic Republic.",
+            "url": "https://netgames.io/games/secret-sith/",
+            "image": "/images/netgames.png",
+            "players_min": 5,
+            "players_max": 10
+        },
+        {
+            "title": "Love Letter",
+            "description": "Compete for the heart of the Princess through deception and betrayal.",
+            "url": "https://netgames.io/games/love-letter/",
+            "image": "/images/netgames.png",
+            "players_min": 2,
+            "players_max": 4
+        },
+        {
+            "title": "Codewords",
+            "description": "Rival Codebreakers try to identify their Codewords before the enemy discovers theirs.",
+            "url": "https://netgames.io/games/codewords/",
+            "image": "/images/netgames.png",
+            "players_min": 4,
+            "players_max": -1
+        },
+        {
+            "title": "Avalon",
+            "description": "Evil players try to sabotage the good as they undertake quests for the Holy Grail.",
+            "url": "https://netgames.io/games/avalon/",
+            "image": "/images/netgames.png",
+            "players_min": 5,
+            "players_max": 10
+        },
+        {
+            "title": "Enigma",
+            "description": "Send secret messages to your comrades while intercepting those of your enemy.",
+            "url": "https://netgames.io/games/enigma/",
+            "image": "/images/netgames.png",
+            "players_min": 4,
+            "players_max": -1
+        },
+        {
+            "title": "Coup Online",
+            "description": "A game of deduction and deception",
+            "url": "https://www.chickenkoup.com/",
+            "image": "/images/couponline.ico",
+            "players_min": 2,
+            "players_max": 6
+        },
+        {
+            "title": "Out of Context",
+            "description": "Party games fueled by your insanity!",
+            "url": "https://www.outofcontext.party/",
+            "image": "/images/outofcontext.ico",
+            "players_min": 2,
+            "players_max": -1
+        },
+        {
+            "title": "Dixit Online",
+            "description": "Give the perfect clue so most (not all) players guess the right surreal image card.",
+            "url": "https://play-dixit.online/",
+            "image": "/images/dixit.png",
+            "players_min": 3,
+            "players_max": 8
+        },
+        {
+            "title": "Gartic.io",
+            "description": "Draw, guess, WIN",
+            "url": "https://gartic.io/",
+            "image": "/images/gartic.io.ico",
+            "players_min": 2,
+            "players_max": 50
+        }
+    ]
+}
